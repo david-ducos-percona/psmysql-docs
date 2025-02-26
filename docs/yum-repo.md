@@ -10,7 +10,7 @@ We gather [Telemetry data] in the Percona packages and Docker images.
 
 Review [Get more help](get-help.md) for ways that we can work with you.
 
-## Version changes
+## Version changes 
 
 Starting with Percona Server 8.0.33-25, the RPM builds for *RHEL* 8 and *RHEL* 9 contain ARM packages with the `aarch64.rpm` extension. This means that Percona Server for MySQL is available for users on ARM-based systems.
 
@@ -32,9 +32,16 @@ RHEL 8 and other EL8 systems enable the MySQL module by default. This module hid
 $ sudo yum module disable mysql
 ```
 
-## Install
+## Percona Server for MySQL PRO 
 
-Install from Percona Software Repository
+--8<--- "pro-build-announcement.md"
+
+[Install Percona Server for MySQL Pro](install-pro.md){.md-button}
+
+[Install Percona XtraBackup Pro on Amazon Linux 2023](install-pro-amzn.md){.md-button}
+
+## Install Percona Server for MySQL from Percona `yum` repository
+
 For more information on the Percona Software repositories and configuring Percona Repositories with `percona-release`, see the [Percona Software Repositories Documentation]. Run the following commands as a `root` user or with sudo.
 
 === "Install on Red Hat 7"
